@@ -58,11 +58,11 @@ To launch Cloud Shell, perform the following steps:
 To install `gcloud` and `kubectl`, perform the following steps:
 
 1. [Install the Google Cloud SDK][gcloud-install], which includes the `gcloud` command-line tool.
-1. Initialize some default configuration by running the following command.
-   * When asked `Do you want to configure a default Compute Region and Zone? (Y/n)?`, enter `Y` and choose a zone in your geographical region of choice.
+1. Initialize some default configuration by running the following command:
    ```bash
    gcloud init
    ```
+   * When asked `Do you want to configure a default Compute Region and Zone? (Y/n)?`, enter `Y` and choose a zone in your geographical region of choice.
 1. Install the `kubectl` command-line tool by running the following command:
    ```bash
    gcloud components install kubectl
